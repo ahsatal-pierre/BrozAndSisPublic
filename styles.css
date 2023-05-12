@@ -1,0 +1,67 @@
+html {
+  background: white;
+  height: 100%;
+  overflow: hidden;
+}
+
+body {
+  /* background: white; */
+  margin: 0;
+  padding: 0;
+/*   height: 100%;
+  position: relative; */
+}
+
+#canvas-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  overflow: hidden;
+}
+
+canvas {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.text-container {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width: 60vw;
+  height: 25vh;
+}
+
+.box {
+  border: 6px solid #939300; 
+  background-color: #e0e5e1;
+  padding: 5px 30px; 
+  display: inline-block;
+  max-width: 60%; /* Adjust the max-width as per your preference */
+  overflow: hidden;
+  text-overflow: ellipsis;
+  background-image: repeating-linear-gradient(11deg, rgba(255,255,255, 0.25), rgba(255,255,255, 0.25) 1px, transparent 0px, transparent 3px); /* Adjust the background-size value */
+  background-size: 6px; /* Adjust the background-size value */
+}
+
+.text {
+  
+  font-family: "unbounded";
+  font-weight: 400;
+  color: #939300; 
+  font-size: 18px; 
+}
+
+.innertext {
+  font-family: "unbounded", "cursive";
+  font-weight: 100;
+  color: #939300; 
+  font-size: 18px; 
+}
