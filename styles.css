@@ -44,11 +44,11 @@ canvas {
   background-color: #e0e5e1;
   padding: 5px 30px; 
   display: inline-block;
-  max-width: 60%; /* Adjust the max-width as per your preference */
+  max-width: 60%; 
   overflow: hidden;
   text-overflow: ellipsis;
-  background-image: repeating-linear-gradient(11deg, rgba(255,255,255, 0.25), rgba(255,255,255, 0.25) 1px, transparent 0px, transparent 3px); /* Adjust the background-size value */
-  background-size: 6px; /* Adjust the background-size value */
+  background-image: repeating-linear-gradient(11deg, rgba(255,255,255, 0.25), rgba(255,255,255, 0.25) 1px, transparent 0px, transparent 3px); 
+  background-size: 6px; 
 }
 
 .text {
