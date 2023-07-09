@@ -21,8 +21,8 @@ canvas.height = window.innerHeight;
 
    // const imageWidth = 80; // size matrix 
    // const imageHeight = 80; // size matrix
-    const imageWidth = 180; // size random 
-    const imageHeight = 180; // size random
+    const imageWidth = 160; // size random 
+    const imageHeight = 160; // size random
     const columns = canvas.width / imageWidth;
     
     const rainDrops = [];
@@ -73,8 +73,5 @@ canvas.height = window.innerHeight;
       //  setInterval(draw, 75); // interval matrix 
     //  setInterval(draw, 150); // interval random
      setInterval(draw, 100); // interval random
-
-
-
 
 
