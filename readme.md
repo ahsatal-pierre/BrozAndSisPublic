@@ -9,4 +9,3 @@ All images on this website are protected by copyright and may not be used withou
 The site will evolve in accordance with the company's growth.
 
 HTML, CSS and Javascript for a kind of matrix effect.
-Use of canvas.
